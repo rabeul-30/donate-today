@@ -3,6 +3,7 @@
     position: relative;
     text-align: center;
     color: white;
+    background-color:dimgrey;
   }
   .centered {
     position: absolute;
@@ -16,6 +17,39 @@
     font-size: xx-large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }  
+
+  .dnt-pln
+  {text-align:center;
+height: 130px;}
+
+  .dnt_pln-div
+  {
+      display:flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+     
+      
+  
+  }
+
+  .dnt-food{
+text-align: center;
+width: 400px;
+background-color: aqua;
+  }
+  .dnt-shelter{
+    text-align: center;
+    width: 400px;
+    background-color: darksalmon;
+  }
+  .dnt-edu{
+    text-align: center;
+    width: 400px;
+    background-color:burlywood;
+  }
+
+
+
 .first_div
 {
     margin: 0 auto;
@@ -25,7 +59,7 @@
 
 }
 
-.btn_submit{
+.btn_donate{
     width: 140px;
     height: 50px;
     font:lighter;
@@ -35,8 +69,65 @@
     color: white;
 }
 
-.footer{
-    background-color:blue;
-    width: auto;
-    height: 100px;
+.btn-amt
+{
+    width: 110px;
+    height: 80px;
+    font: bolder;
+    font-size: 20pt;
 }
+.btn-200
+{
+    background-color:brown;
+}
+.sec_div
+{
+    margin: 0 auto;
+    display: inline-block;
+    width: 1330px;
+    height: 400px;
+    text-align: center;
+
+}
+.th_div
+{
+    display:flex;
+    flex-wrap: nowrap;
+
+}
+
+.fourth-div
+{
+    display:flex;
+    flex-wrap: nowrap;
+    height: 100px;
+    justify-content: space-between;
+
+}
+.live-div
+{
+    display:flex;
+    flex-wrap: nowrap;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.fifth-div
+{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-between
+
+}
+
+.img-lives{
+    width: 500px;
+    height: 60px;
+}
+
+.footer {
+    text-align: center;
+    padding: 5px;
+    background-color:#0B0D17;
+    color: white;
+  }
