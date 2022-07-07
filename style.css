@@ -27,10 +27,7 @@ height: 130px;}
       display:flex;
       flex-wrap: nowrap;
       justify-content: space-between;
-     
-      
-  
-  }
+ }
 
   .dnt-food{
 text-align: center;
@@ -47,8 +44,6 @@ background-color: aqua;
     width: 400px;
     background-color:burlywood;
   }
-
-
 
 .first_div
 {
@@ -68,6 +63,17 @@ background-color: aqua;
     background-color: rgb(216, 39, 39);
     color: white;
 }
+
+.btn_contribute{
+    width: 240px;
+    height: 50px;
+    font:lighter;
+    border: none;
+    font-size: 17pt;
+    background-color: rgb(216, 39, 39);
+    color: white;
+}
+
 
 .btn-amt
 {
@@ -96,33 +102,23 @@ background-color: aqua;
 
 }
 
-.fourth-div
-{
-    display:flex;
-    flex-wrap: nowrap;
-    height: 100px;
-    justify-content: space-between;
-
-}
 .live-div
 {
     display:flex;
-    flex-wrap: nowrap;
-    height: 100px;
-    justify-content: space-between;
-}
+    justify-content:space-evenly;
 
-.fifth-div
+}
+.survive-div
 {
     display:flex;
     flex-wrap: nowrap;
-    justify-content: space-between
+    justify-content:space-evenly;
 
 }
-
-.img-lives{
-    width: 500px;
-    height: 60px;
+.update-div{
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
 }
 
 .footer {
@@ -131,3 +127,11 @@ background-color: aqua;
     background-color:#0B0D17;
     color: white;
   }
+
+  .footer-div
+{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-between
+
+}
